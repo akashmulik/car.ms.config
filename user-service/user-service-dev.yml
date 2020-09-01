@@ -1,2 +1,8 @@
 user:
   prop: dev
+spring:
+  datasource:
+    url: mysql://localhost:3306/carms?createDatabaseIfNotEsxist=true
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver

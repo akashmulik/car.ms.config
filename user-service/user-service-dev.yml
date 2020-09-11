@@ -2,13 +2,11 @@ user:
   prop: dev
 spring:
   datasource:
-    url: jdbc:mariadb://localhost:3306/caruser
+    url: jdbc:mysql://localhost:3306/caruser
     username: root
     password: root
-    driver-class-name: org.mariadb.jdbc.Driver
+    driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     hibernate:
       ddl-auto: update
-    
-logging:
-  file: /home/pi/LOGS/car-user.log
+

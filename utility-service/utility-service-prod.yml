@@ -1,0 +1,14 @@
+user:
+  prop: dev
+spring:
+  datasource:
+    url: jdbc:mariadb://localhost:3306/carutility
+    username: root
+    password: root
+    driver-class-name: org.mariadb.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    
+logging:
+  file: /home/pi/LOGS/car-user.log

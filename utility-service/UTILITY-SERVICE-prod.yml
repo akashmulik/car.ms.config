@@ -11,4 +11,5 @@ spring:
       ddl-auto: update
     
 logging:
-  file: /home/pi/LOGS/car-utility.log
+  file:
+    name: /home/pi/LOGS/car-utility.log

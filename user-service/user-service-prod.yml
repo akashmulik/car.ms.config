@@ -10,5 +10,7 @@ spring:
     hibernate:
       ddl-auto: update
     
+    
 logging:
-  file: /home/pi/LOGS/car-user.log
+  file:
+    name: /home/pi/LOGS/car-user.log

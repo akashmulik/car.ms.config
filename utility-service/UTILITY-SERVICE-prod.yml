@@ -13,3 +13,9 @@ spring:
 logging:
   file:
     name: /home/pi/LOGS/car-utility.log
+    
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
